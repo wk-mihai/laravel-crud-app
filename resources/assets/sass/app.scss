@@ -1,0 +1,33 @@
+@import "variables";
+@import "mixins";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+// Fontawesome
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+
+// Tinymce
+@import "~tinymce/skins/ui/oxide/skin.min.css";
+@import "~tinymce/skins/ui/oxide/content.min.css";
+@import "~tinymce/skins/content/default/content.min.css";
+
+// Fancybox
+@import "~@fancyapps/fancybox/dist/jquery.fancybox.min.css";
+
+// Select2
+@import "~select2/dist/css/select2.min.css";
+@import "~select2-bootstrap-theme/dist/select2-bootstrap.min.css";
+
+@import "styles";
+
+@import "partials/nav";
+@import "partials/card";
+
+@import "pages/auth";
+@import "pages/trainings";
+@import "pages/training-page";
+@import "pages/home-page";

@@ -1,0 +1,30 @@
+body {
+    &.admin {
+        background: #e9ecef;
+
+        .wrapper {
+            .container {
+                & > .row {
+                    background: #e9ecef;
+                    border-radius: unset;
+                }
+            }
+        }
+    }
+
+    .wrapper {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-height: calc(100vh - 63px);
+
+        .container {
+            margin: 20px auto;
+
+            & > .row {
+                background: #f8f9fa;
+                border-radius: 3px;
+            }
+        }
+    }
+}
