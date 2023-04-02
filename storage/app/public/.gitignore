@@ -1,2 +1,4 @@
 *
 !.gitignore
+!default-trainings-images
+!default-trainings-images/*
